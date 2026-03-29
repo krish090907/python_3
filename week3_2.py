@@ -1,0 +1,23 @@
+import numpy as np
+arr = np.array([[1, 2, 3],[4, 5, 6],[7, 8, 9]])
+print("Original 2D Array:\n", arr)
+print("Element at row 0, col 1:", arr[0, 1])      
+print("First row:", arr[0])                        
+print("First column:", arr[:, 0])                  
+print("Sub-matrix (rows 0-1, cols 1-2):\n", arr[0:2, 1:3])
+print("Array + 10:\n", arr + 10)
+print("Array - 2:\n", arr - 2)
+print("Array * 2:\n", arr * 2)
+print("Array / 2:\n", arr / 2)
+print("Array squared:\n", arr ** 2)
+print("Sum of all elements:", np.sum(arr))
+print("Mean of elements:", np.mean(arr))
+print("Median of elements:", np.median(arr))
+print("Maximum element:", np.max(arr))
+print("Minimum element:", np.min(arr))
+print("Standard Deviation:", np.std(arr))
+print("Variance:", np.var(arr))
+print("Shape of array:", arr.shape)
+print("Transpose of array:\n", arr.T)
+
+
